@@ -50,14 +50,52 @@ transform:rotate(360deg);
 
 .scaleme{
 
-animation: scale
+animation: scale ease 2s infinite;
+display:inline-block;
 
+
+}
+
+@keyframes scale{
+    0%{
+        transform:scale(1,1);
+
+    }
+
+    20%{
+        transform: scale(1.1,1.1);
+
+    }
+
+    40%{
+        transform: scale(1.2,1.2);
+
+    }
+
+    60%{
+        transform:scale(1.1,1.1);
+    }
+
+    80%{
+        transform:scale(1,1);
+
+    }
 
 }
 
 
 
+.rollmeleft{
+    animation:rolleft ease 8s 1;
+    display:inline-block;
 
+}
+
+@keyframes rolllleft{
+    from{
+        transform:trans
+    }
+}
 
 
 }
