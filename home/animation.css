@@ -93,9 +93,65 @@ display:inline-block;
 
 @keyframes rolllleft{
     from{
-        transform:trans
+        transform:translate(-60vw) rotate(0deg);
     }
 }
 
 
+to{
+    transform:translate(-60vw ) rotate(0deg);
+
+}
+
+}
+
+.rollmeright{
+animation:rollright ease 8s 1;
+display:inline-block;
+
+}
+@keyframes rollright{
+    from{
+        transform:translate(60vw) rotate(360deg);
+
+    }
+    to{
+        transform:translate(0vw) rotate(00deg);
+
+    }
+
+}
+
+.movemeleft{
+    animation:moveleft ease 8s 1;
+    display:inline-block;
+
+}
+
+@keyframes moveleft{
+    from{
+        transform:translate(-60vw);
+
+    }
+    to{
+        transform:translate(0vw);
+
+    }
+}
+.movemeright{
+    animation:moveright ease 8s 1;
+    display:inline-block;
+}
+@keyframes moveright{
+    from{
+        transform:translate(60vw);
+
+    }
+    to{
+        transform:translate(0vw);
+    }
+}
+.flipme{
+    transform:rotateY(180deg);
+    
 }
